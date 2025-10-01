@@ -4,6 +4,7 @@ void afisareVector(const int v[], int dim){
     int i;
     for(i=0;i<dim;i++)
         cout<<v[i]<<" ";
+    cout<<endl;
 }
 
 void sortareVector(const int v[],int dim, int vSortat[]){

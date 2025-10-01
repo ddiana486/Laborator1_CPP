@@ -11,4 +11,3 @@ int minimVector(const int v[],int dim);
 int maximVector(const int v[],int dim);
 
 #endif 
-

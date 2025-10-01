@@ -7,8 +7,8 @@ int main(){
         cin>>v[i];
     afisareVector(v,dim);
     sortareVector(v,dim,vSortat);
-    sumaVector(v,dim);
-    minimVector(v,dim);
-    maximVector(v,dim);
+    cout<<"Suma este: "<<sumaVector(v,dim)<<endl;
+    cout<<"Minimul este: "<<minimVector(v,dim)<<endl;
+    cout<<"Maximul este: "<<maximVector(v,dim)<<endl;
     return 0;
 }
